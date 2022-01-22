@@ -1,0 +1,49 @@
+next.js notes
+
+	docs - https://nextjs.org/docs/getting-started
+
+
+	create app
+		create next-app [appName] --use-npm
+		create-next-app --typescript
+
+	run for dev
+		npm run dev
+
+		localhost:3000/
+
+	create static website
+		"build": "next build && next export"
+
+		serve with serve package
+
+	css has to have [name].module.css convention
+
+	pages/ creates routes
+		_app.js creates layouts
+		lowercase for pages, uppercase for other components
+
+	3 different ways to get data
+		getStaticProps() - fetch at build time
+		getServerPRops() - at every request
+		getDynamicPass() - dynamically generate paths on data requesting
+
+
+
+	api folder is the backend
+		very similar to express
+
+	create meta component for meta data
+		title
+		keywords
+		description
+
+		then import into layout right at the top
+
+
+
+
+
+
+
+		14.18.0
